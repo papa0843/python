@@ -36,3 +36,13 @@ print("x2_sub :",x2_sub)
 x2_sub[0,0]=99
 print("x2_sub :",x2_sub)
 print("x2 :",x2)
+
+print("x2 :",x2)
+x2_sub_copy = x2[:2, :2].copy()
+print("x2_sub_copy :", x2_sub_copy)
+x2_sub_copy[0,0] = 42
+print("x2_sub_copy :", x2_sub_copy)
+print("x2 :",x2)
+
+grid = np.arange(1, 10).reshape((3,3))
+print("grid :", grid)
